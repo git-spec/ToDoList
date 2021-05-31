@@ -1,0 +1,28 @@
+{
+  "todos": [
+    {
+      "label": "test 2",
+      "status": false,
+      "position": 2,
+      "id": 1
+    },
+    {
+      "label": "test 3: Wie lang kann ich schreiben?",
+      "status": false,
+      "position": 3,
+      "id": 2
+    },
+    {
+      "label": "test 6",
+      "status": true,
+      "position": 3,
+      "id": 3
+    },
+    {
+      "label": "test 7",
+      "status": false,
+      "position": 1,
+      "id": 4
+    }
+  ]
+}

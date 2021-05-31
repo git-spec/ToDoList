@@ -1,0 +1,21 @@
+@import '../../../sass/var'
+
+/* **************************************************************************************************************************** */
+
+.todo-form
+    @extend %todo
+    background-color: $prime
+    .todo-form-content
+        @extend %content
+        background-color: $prime
+        input
+            @extend %input
+            background-color: $prime
+        input::placeholder
+            font-style: italic
+            opacity: .5
+        input:focus
+            outline: none
+    .create
+        @extend %button
+        background-color: $prime-dark

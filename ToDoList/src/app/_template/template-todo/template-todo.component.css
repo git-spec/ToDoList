@@ -1,0 +1,102 @@
+.todo .todo-content .todo-content-check, .todo .delete span, .todo .todo-content .todo-content-title, .todo .todo-content, .todo {
+  display: flex;
+  flex-flow: row;
+}
+
+.todo {
+  height: 2.6rem;
+  justify-content: space-between;
+  align-items: strech;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.todo .todo-content .todo-content-title, .todo .todo-content {
+  height: 100%;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: strech;
+}
+
+.todo .todo-content .todo-content-title input {
+  width: 100%;
+  font-family: "Segoe ui", sans serif;
+  font-weight: normal;
+  font-size: 1rem;
+  color: #16404c;
+  border: none;
+  word-break: break-word;
+  padding: 0.6rem;
+}
+
+.todo .delete {
+  font-family: "Segoe ui", sans serif;
+  font-weight: normal;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.6rem;
+}
+.todo .delete span {
+  color: #FFFFFF;
+  justify-content: flex-start;
+  align-items: strech;
+}
+
+/* **************************************************************************************************************************** */
+.todo .todo-content {
+  background-color: #FFFFFF;
+}
+.todo .todo-content .todo-content-handle {
+  background-color: #01dcff;
+  cursor: pointer;
+  padding: 0.18rem;
+  display: flex;
+  flex: row;
+  justify-content: center;
+  align-items: center;
+}
+.todo .todo-content .todo-content-handle img {
+  width: 40 .todo .todo-content .todo-content-handle img;
+  height: 50%;
+  opacity: 0.4;
+}
+.todo .todo-content .todo-content-check {
+  cursor: pointer;
+  padding-left: 0.3rem;
+  display: flex;
+  flex: row;
+  justify-content: center;
+  align-items: center;
+}
+.todo .todo-content .todo-content-check img {
+  width: 65%;
+  height: 65%;
+}
+.todo .todo-content .todo-content-title input {
+  background-color: #FFFFFF;
+}
+.todo .todo-content .todo-content-title input::-moz-placeholder {
+  font-style: italic;
+  opacity: 0.5;
+}
+.todo .todo-content .todo-content-title input:-ms-input-placeholder {
+  font-style: italic;
+  opacity: 0.5;
+}
+.todo .todo-content .todo-content-title input::placeholder {
+  font-style: italic;
+  opacity: 0.5;
+}
+.todo .todo-content .todo-content-title input:focus {
+  outline: none;
+}
+.todo .delete {
+  background-color: #ff7676;
+}
+
+.todo.done .todo-content .todo-content-handle {
+  display: none;
+}
+.todo.done .todo-content .todo-content-title input {
+  opacity: 0.3;
+  text-decoration: line-through;
+}/*# sourceMappingURL=template-todo.component.css.map */

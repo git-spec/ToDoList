@@ -1,0 +1,52 @@
+<svg id="Drag_Handle" data-name="Drag Handle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="25" viewBox="0 0 17 25">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rechteck_4" data-name="Rechteck 4" width="3" height="25" rx="1.5" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Gruppe_1" data-name="Gruppe 1">
+    <path id="Pfad_1" data-name="Pfad 1" d="M1.5,0C2.328,0,3,.48,3,1.071V23.929C3,24.52,2.328,25,1.5,25S0,24.52,0,23.929V1.071C0,.48.672,0,1.5,0Z" fill="#008296"/>
+    <g id="Gruppe_maskieren_1" data-name="Gruppe maskieren 1" clip-path="url(#clip-path)">
+      <g id="Rechteck_3" data-name="Rechteck 3" transform="translate(-1 -1)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="0.5">
+        <rect width="9" height="27" rx="2" stroke="none"/>
+        <rect x="0.25" y="0.25" width="8.5" height="26.5" rx="1.75" fill="none"/>
+      </g>
+    </g>
+    <g id="Gruppe_maskieren_2" data-name="Gruppe maskieren 2" transform="translate(3 25) rotate(180)" clip-path="url(#clip-path)">
+      <g id="Rechteck_7" data-name="Rechteck 7" transform="translate(-1 -1)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="0.5">
+        <rect width="9" height="27" rx="2" stroke="none"/>
+        <rect x="0.25" y="0.25" width="8.5" height="26.5" rx="1.75" fill="none"/>
+      </g>
+    </g>
+  </g>
+  <g id="Gruppe_2" data-name="Gruppe 2" transform="translate(7)">
+    <path id="Pfad_1-2" data-name="Pfad 1" d="M1.5,0C2.328,0,3,.48,3,1.071V23.929C3,24.52,2.328,25,1.5,25S0,24.52,0,23.929V1.071C0,.48.672,0,1.5,0Z" fill="#008296"/>
+    <g id="Gruppe_maskieren_1-2" data-name="Gruppe maskieren 1" clip-path="url(#clip-path)">
+      <g id="Rechteck_3-2" data-name="Rechteck 3" transform="translate(-1 -1)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="0.5">
+        <rect width="9" height="27" rx="2" stroke="none"/>
+        <rect x="0.25" y="0.25" width="8.5" height="26.5" rx="1.75" fill="none"/>
+      </g>
+    </g>
+    <g id="Gruppe_maskieren_2-2" data-name="Gruppe maskieren 2" transform="translate(3 25) rotate(180)" clip-path="url(#clip-path)">
+      <g id="Rechteck_7-2" data-name="Rechteck 7" transform="translate(-1 -1)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="0.5">
+        <rect width="9" height="27" rx="2" stroke="none"/>
+        <rect x="0.25" y="0.25" width="8.5" height="26.5" rx="1.75" fill="none"/>
+      </g>
+    </g>
+  </g>
+  <g id="Gruppe_3" data-name="Gruppe 3" transform="translate(14)">
+    <path id="Pfad_1-3" data-name="Pfad 1" d="M1.5,0C2.328,0,3,.48,3,1.071V23.929C3,24.52,2.328,25,1.5,25S0,24.52,0,23.929V1.071C0,.48.672,0,1.5,0Z" fill="#008296"/>
+    <g id="Gruppe_maskieren_1-3" data-name="Gruppe maskieren 1" clip-path="url(#clip-path)">
+      <g id="Rechteck_3-3" data-name="Rechteck 3" transform="translate(-1 -1)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="0.5">
+        <rect width="9" height="27" rx="2" stroke="none"/>
+        <rect x="0.25" y="0.25" width="8.5" height="26.5" rx="1.75" fill="none"/>
+      </g>
+    </g>
+    <g id="Gruppe_maskieren_2-3" data-name="Gruppe maskieren 2" transform="translate(3 25) rotate(180)" clip-path="url(#clip-path)">
+      <g id="Rechteck_7-3" data-name="Rechteck 7" transform="translate(-1 -1)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="0.5">
+        <rect width="9" height="27" rx="2" stroke="none"/>
+        <rect x="0.25" y="0.25" width="8.5" height="26.5" rx="1.75" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

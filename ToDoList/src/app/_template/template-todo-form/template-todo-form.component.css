@@ -1,0 +1,71 @@
+.todo-form .create span, .todo-form .todo-form-content, .todo-form {
+  display: flex;
+  flex-flow: row;
+}
+
+.todo-form {
+  height: 2.6rem;
+  justify-content: space-between;
+  align-items: strech;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.todo-form .todo-form-content {
+  height: 100%;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: strech;
+}
+
+.todo-form .todo-form-content input {
+  width: 100%;
+  font-family: "Segoe ui", sans serif;
+  font-weight: normal;
+  font-size: 1rem;
+  color: #16404c;
+  border: none;
+  word-break: break-word;
+  padding: 0.6rem;
+}
+
+.todo-form .create {
+  font-family: "Segoe ui", sans serif;
+  font-weight: normal;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.6rem;
+}
+.todo-form .create span {
+  color: #FFFFFF;
+  justify-content: flex-start;
+  align-items: strech;
+}
+
+/* **************************************************************************************************************************** */
+.todo-form {
+  background-color: #01dcff;
+}
+.todo-form .todo-form-content {
+  background-color: #01dcff;
+}
+.todo-form .todo-form-content input {
+  background-color: #01dcff;
+}
+.todo-form .todo-form-content input::-moz-placeholder {
+  font-style: italic;
+  opacity: 0.5;
+}
+.todo-form .todo-form-content input:-ms-input-placeholder {
+  font-style: italic;
+  opacity: 0.5;
+}
+.todo-form .todo-form-content input::placeholder {
+  font-style: italic;
+  opacity: 0.5;
+}
+.todo-form .todo-form-content input:focus {
+  outline: none;
+}
+.todo-form .create {
+  background-color: #008296;
+}/*# sourceMappingURL=template-todo-form.component.css.map */

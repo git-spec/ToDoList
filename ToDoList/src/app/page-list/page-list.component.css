@@ -1,0 +1,21 @@
+/* **************************************************************************************************************************** */
+.list-view {
+  padding: 1rem;
+}
+.list-view h4 {
+  font-family: "Segoe ui", sans serif;
+  font-weight: semibold;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  transition: all 250ms;
+}
+.list-view h4 span {
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.list-view h4:hover {
+  color: #01dcff;
+}/*# sourceMappingURL=page-list.component.css.map */

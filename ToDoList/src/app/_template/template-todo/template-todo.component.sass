@@ -1,0 +1,53 @@
+@import '../../../sass/var'
+
+/* **************************************************************************************************************************** */
+
+.todo
+    @extend %todo
+    .todo-content
+        @extend %content
+        background-color: $white
+        .todo-content-handle
+            background-color: $prime
+            cursor: pointer
+            padding: $pad * .3
+            display: flex
+            flex: row
+            justify-content: center
+            align-items: center
+            img
+                width: 40&
+                height: 50%
+                opacity: .4
+        .todo-content-check
+            @extend %flex-row
+            cursor: pointer
+            padding-left: $pad * .5
+            display: flex
+            flex: row
+            justify-content: center
+            align-items: center
+            img
+                width: 65%
+                height: 65%
+        .todo-content-title
+            @extend %content
+            input
+                @extend %input
+                background-color: $white
+            input::placeholder
+                font-style: italic
+                opacity: .5
+            input:focus
+                outline: none
+    .delete
+        @extend %button
+        background-color: $red
+.todo.done
+    .todo-content
+        .todo-content-handle
+            display: none
+        .todo-content-title
+            input
+                opacity: .3
+                text-decoration: line-through

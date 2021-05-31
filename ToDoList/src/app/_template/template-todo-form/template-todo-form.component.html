@@ -1,0 +1,8 @@
+<div class="todo-form">
+    <div class="todo-form-content">
+        <input type="text" (keyup.enter)="createToDo($event)" [(ngModel)]="toDo$.label" placeholder="Aufgabe">
+    </div>
+    <div class="create" (click)="createToDo($event)">
+        <span>Erstellen</span>
+    </div>
+</div>

@@ -1,0 +1,1 @@
+{"version":3,"sources":["page-list.component.sass","../../sass/_var.sass"],"names":[],"mappings":"AAEA,iIAAA;AAEA;EACI,aCIG;ADNP;AAGI;EACI,mCCMA;EDLA,qBAAA;EACA,iBAAA;EACA,cCNA;EDOA,SAAA;EACA,UAAA;EACA,eAAA;EACA,qBAAA;AADR;AAEQ;EACI,mBAAA;EACA,iBAAA;AAAZ;AACI;EACI,cClBA;ADmBR","file":"page-list.component.css"}

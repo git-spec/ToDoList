@@ -1,0 +1,97 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face
+    font-family: "segoe ui"
+    src: local("segoe ui") format("truetype")
+    src: url("./assets/fonts/segoeui.ttf") format("truetype")   
+    font-style: normal
+    font-weight: normal
+    
+@font-face
+    font-family: "segoe ui"
+    src: local("segoe ui") format("truetype")
+    src: local("segoe ui bold") format("truetype")
+    src: url("./assets/fonts/segoeuib.ttf") format("truetype")   
+    font-style: normal
+    font-weight: bold
+    
+@font-face
+    font-family: "segoe ui"
+    src: local("segoe ui") format("truetype")
+    src: local("segoe ui italic") format("truetype")
+    src: url("./assets/fonts/segoeuii.ttf") format("truetype")   
+    font-style: italic
+    font-weight: normal
+
+@font-face
+    font-family: "segoe ui"
+    src: local("segoe ui") format("truetype")
+    src: local("segoe ui light") format("truetype")
+    src: url("./assets/fonts/segoeuil.ttf") format("truetype")   
+    font-style: normal
+    font-weight: light
+
+@font-face
+    font-family: "segoe ui"
+    src: local("segoe ui") format("truetype")
+    src: local("segoe ui semilight") format("truetype")
+    src: url("./assets/fonts/segoeuisl.ttf") format("truetype")   
+    font-style: normal
+    font-weight: semilight
+
+@font-face
+    font-family: "segoe ui"
+    src: local("segoe ui") format("truetype")
+    src: local("segoe ui bolditalic") format("truetype")
+    src: url("./assets/fonts/segoeuiz.ttf") format("truetype")   
+    font-style: italic
+    font-weight: bold
+
+/* ******************************************************************************* */
+
+@import './sass/var' 
+
+/* ******************************************************************************* */
+
+::selection
+    background-color: $prime
+    color: $white
+
+*
+    box-sizing: border-box
+
+body, html
+    margin: 0
+    padding: 0
+    font-size: 10pt
+    background-color: $dark
+
+/* ******************************************************************************* */
+
+/* in-flight clone */
+.gu-mirror
+  position: fixed !important
+  margin: 0 !important
+  z-index: 9999 !important
+  opacity: 0.8
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"
+  filter: alpha(opacity=80)
+  pointer-events: none
+
+/* high-performance display:none; helper */
+.gu-hide
+  left: -9999px !important
+
+/* added to mirrorContainer (default = body) while dragging */
+.gu-unselectable
+  -webkit-user-select: none !important
+  -moz-user-select: none !important
+  -ms-user-select: none !important
+  user-select: none !important
+
+/* added to the source element while its mirror is dragged */
+.gu-transit
+  opacity: 0.2
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)"
+  filter: alpha(opacity=20)
+

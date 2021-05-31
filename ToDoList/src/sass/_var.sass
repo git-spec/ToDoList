@@ -1,0 +1,52 @@
+// Color Palette
+$prime: #01dcff
+$prime-dark: #008296
+$dark: #16404c
+$white: #FFFFFF
+$red: #ff7676
+$green: #42ff75
+
+// Margin & Padding, Sizing
+$cube: 1rem
+$pad: $cube * .6
+
+// Fonts
+$font1: "Segoe ui", sans serif
+
+// Extends
+%flex-row
+    display: flex
+    flex-flow: row
+
+%todo
+    height: $cube * 2.6
+    @extend %flex-row
+    justify-content: space-between
+    align-items: strech
+    margin: $cube * .5 0 $cube * .5 0
+%content    
+    height: 100%
+    width: 100%
+    @extend %flex-row
+    justify-content: flex-start
+    align-items: strech
+%input   
+    width: 100%
+    font-family: $font1
+    font-weight: normal
+    font-size: $cube
+    color: $dark
+    border: none
+    word-break: break-word
+    padding: $pad
+%button   
+    font-family: $font1
+    font-weight: normal
+    font-size: $cube
+    cursor: pointer
+    padding: $pad
+    span
+        color: $white
+        @extend %flex-row
+        justify-content: flex-start
+        align-items: strech
